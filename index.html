@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    
+    <form class="contactMe" action="mailto:vishal.208206@knit.ac.in" method="post" enctype="text/plain">
+        <div>
+            <table cellspacing="20" cellpadding="5px" >
+                <tr>
+                    <td>
+                        <label >Your name*:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Your date of birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="dob" id="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Your gander:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male">Male
+                        <input type="radio" name="gender" id="female">Female
+                        <input type="radio" name="gender" id="other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Your category:</label>
+                    </td>
+                    <td>
+                        <select name="category" id="category">
+                            <option value="">--Select your category--</option>
+                            <option value="general">General</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc/st">SC/ST</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Size of your booby😍:</label>
+                    </td>
+                    <td>28
+                        <input type="range" name="sizeB" id="sizeB" min="28" max="50" step="1">50
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Your photo:</label>
+                    </td>
+                    <td>
+                        <input type="file" name="photo" id="photo" accept=".png,.jpg,.jpeg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Your resume/CV:</label>
+                    </td>
+                    <td>
+                        <input type="file" name="resume" id="resume" accept=".pdf">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label >Your color:</label>
+                    </td>
+                    <td>
+                        <input type="color" name="color" id="color">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label >Your email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Your mobile number:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="mobile" id="mobile">
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        <label >Ask your question:</label>
+                    </td>
+                    <td>
+                        <textarea name="question" id="question" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
